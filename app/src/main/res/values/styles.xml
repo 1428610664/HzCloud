@@ -17,10 +17,20 @@
 
     <style name="SplashTheme" parent="AppTheme">
         <item name="android:windowBackground">@mipmap/launcher</item>
-        <item name="android:windowFullscreen">true</item>
-        <item name="windowNoTitle">true</item>
         <!--<item name="android:windowIsTranslucent">false</item>-->
         <!--<item name="android:windowDisablePreview">true</item>-->
+    </style>
+
+
+    <style name="MenuStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginRight">80dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
 </resources>
